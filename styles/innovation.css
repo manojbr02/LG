@@ -1,0 +1,159 @@
+.slider{
+    margin: 0 auto;
+    width: 40%;
+    overflow: hidden;
+    height: 50vh;
+    padding: 10px 00px;
+}
+
+.slider figure div{
+    float: left;
+    display: flex;
+    width: 10%;
+}
+
+.slider figure .slide img{
+    float: left;
+    width: 1000%;
+}
+
+.slider figure{
+    position: relative;
+    width: 100%;
+    margin: 0%;
+    left: 0%;
+    animation: 10s manu infinite;
+}
+
+@keyframes manu{
+    0%{left: 0;}
+    20%{left: 0;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+}
+
+.innovation{
+    font-size: 220%;
+    font-weight: 600;
+    padding: 30px 40px;
+    color: #b6adad;
+}
+
+.innovation p{
+    text-transform: uppercase;
+    font-size: 90%;
+    color: rgb(214, 94, 94);
+    padding: 10px 100px ;
+}
+
+.innovation pre{
+    font-size: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgb(12, 12, 12);
+}
+
+.oleddis p{
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: 600;
+    color: rgb(214, 94, 94);
+    padding: 0px 150px ;
+}
+
+.oleddis pre{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 0px 70px;
+}
+
+.oleddis img{
+    margin: 10px 0px 0px 420px;
+}
+
+.ultrawidecam p{
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: 600;
+    color: rgb(214, 94, 94);
+    padding: 20px 150px ;
+}
+
+.ultrawidecam pre{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgb(7, 7, 7);
+    padding: 0px 70px;
+}
+
+.ultrawidecam img{
+    margin: 10px 0px 0px 400px;
+}
+
+.prada p{
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: 600;
+    color: rgb(214, 94, 94);
+    padding: 20px 150px ;
+}
+
+.prada pre{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgb(10, 10, 10);
+    padding: 0px 70px;
+}
+
+.prada img{
+    margin: 10px 0px 0px 500px;
+}
+
+.dual p{
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: 600;
+    color: rgb(214, 94, 94);
+    padding: 20px 150px ;
+}
+
+.dual pre{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgb(7, 7, 7);
+    padding: 0px 70px;
+}
+
+.dual img{
+    margin: 10px 0px 0px 400px;
+}
+
+.modular p{
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: 600;
+    color: rgb(214, 94, 94);
+    padding: 20px 150px ;
+}
+
+.modular pre{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgb(5, 5, 5);
+    padding: 0px 70px;
+}
+
+.modular img{
+    margin: 10px 0px 0px 450px;
+}

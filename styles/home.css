@@ -1,0 +1,160 @@
+
+:root {
+    --primary-color: black;
+    --secondary-color: #444;
+    --overlay-color: rgba(0,0,0,0.7);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 1;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+h1{
+    line-height: 1.3;
+}
+a{
+    text-decoration: none;
+}
+
+.section-a img {
+    width: 150%;
+}
+
+.container {
+    max-width: 1543px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3.5rem;
+    
+}
+
+.navbar {
+    font-size: 1.2rem;
+    padding-top: 0rem;
+    padding-bottom: 0.3rem;
+}
+
+.navbar .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.section-a {
+    margin: 1rem 0rem;
+}
+
+
+.section-a .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+}
+
+.section-a h1 {
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+.section-a p {
+    margin: 1rem 0;
+}
+
+
+
+.btn {
+    display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
+.btn:hover {
+    background: var(--secondary-color);
+  }
+
+
+
+  @media (max-width: 700px) {
+    .section-a .container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .section-a .container div:first-child {
+        order: 2;
+    }
+    
+    .section-a .container div:last-child {
+        order: -1;
+    }
+
+    .section-a img {
+        width: 80%;
+        margin: auto;
+      }
+  }
+
+
+.images img{
+    margin-left: 10%;
+    width: 20%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.slider{
+    margin: auto;
+    width: auto;
+    overflow: hidden;
+    height: auto;
+}
+
+.slider figure div{
+    float: left;
+    display: flex;
+    width: 100%;
+}
+
+.slider figure .slide img{
+    float: left;
+    width: 100%;
+}
+
+.slider figure{
+    position: relative;
+    width: 100%;
+    margin: 0%;
+    left: 0%;
+    animation: 10s manu infinite;
+    animation-delay: -2s;
+}
+
+@keyframes manu{
+    0%{left: 0;}
+    20%{left: 0;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+}
+

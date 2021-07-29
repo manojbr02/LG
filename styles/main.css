@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+nav{
+    background: rgba(0,0,0,0.2);
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;   
+    justify-content: center;
+}
+nav .menu{
+    width: 200%;
+    text-align: right;
+    margin-right: 5%;
+}
+
+nav .menu {
+    width: 200%;
+    text-align: right;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    
+    
+}
+.menu  a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #313131;
+    font-weight: 600;
+    padding-left: 10%;
+}
+
+.menu a::after{
+    content:'';
+    width: 0%;
+    height: 3px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.menu a:hover:after{
+    width: 100%;
+}
+
+.logo{
+    margin-left: 5%;
+    width: 35%;
+    height: auto;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    font-variant: small-caps;
+    margin-left: 100px;
+    color: rgb(52, 202, 139);
+}
+
+h2{
+    font-weight: 900;
+    font-size: 33px;
+    font-variant: small-caps;
+    margin-left: 100px;
+    color: rgb(187, 52, 180);
+}
+
+h4{
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 130px;
+    font-variant: small-caps;
+    color: rgb(84, 53, 156); 
+}
+
+.scc{
+    width: 40%;
+}
+
+.sc{
+    margin-left: 20%;
+}
+
+p{
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+pre {
+    font-size: 15px;
+}

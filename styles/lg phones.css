@@ -1,0 +1,14 @@
+ p{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+ .top .images img{
+    padding-left: 10%;
+}
+.top img{
+    padding-left: 12%;
+}
+.videos{
+ margin: 50px 0px 0px 200px;
+}

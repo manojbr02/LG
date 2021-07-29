@@ -1,0 +1,12 @@
+.img1{
+    margin-left: 7%;
+    width: 85%;
+    height: 400px;
+}
+
+.history{
+    margin-left: 7%;
+    width: 25%;
+    height: 50%;
+    object-fit: contain;
+}
