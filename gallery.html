@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>LG-Gallery</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/gallery.css">
+        <link rel="icon" href="images/icon.jpg"> 
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div>
+                    <a href="home.html"> <img class="logo" src="images/logo.png"> </a>
+                </div>
+    
+                <div class="menu">
+                    <a href="home.html"> HOME </a>
+                    <a href="about.html"> ABOUT </a>
+                    <a class="active" href="gallery.html"> GALLERY </a>
+                    <a href="lg phones.html">  PHONES </a>
+                    <a href="innovation.html"> INNOVATION </a>
+                </div>
+            </nav>
+        </header>
+        
+        <h1>GALLERY</h1>
+
+
+        <!-- Overlay Text -->
+        <section class="section-b">
+            <div class="overlay">
+                <div class="section-b-inner">
+                    <h3>LG G5</h3>
+                    <p>The LG G5 <q>brings together form and function like no other smartphone. Its unique design features a quick reload battery and modular functionality that lets you experience more of your world.</q>
+                    </p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Gallery -->
+        <section class="section-c">
+            <div class="gallery">
+              <a href="images/gallery/lgwide2.jpg" class="big"
+                ><img src="images/gallery/lgwide2.jpg" alt=""
+              /></a>
+              <a href="images/gallery/lgphone1.jpg" class="big"
+                ><img src="images/gallery/lgphone1.jpg" alt=""
+              /></a>
+              <a href="images/gallery/lgwm3.jpg" class="big"
+                ><img src="images/gallery/lgwm3.jpg" alt=""
+              /></a>
+              <a href="images/gallery/lgtv4.jpg" class="big"
+                ><img src="images/gallery/lgtv4.jpg" alt=""
+              /></a>
+              <a href="images/gallery/lgref5.jpg" class="big">
+                <img src="images/gallery/lgref5.jpg" alt=""
+              /></a>
+              <a href="images/gallery/lgphone6.png" class="big"
+                ><img src="images/gallery/lgphone6.png" alt=""
+              /></a>
+            </div>
+          </section>
+    
+          <!-- Footer -->
+        <footer class="section-footer py-4 bg-primary">
+            <div class="container">
+              <div>
+                <h2 class="text-2 mb-1"></h2>
+                <a href="http://twitter.com">
+                  <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="http://facebook.com">
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="http://youtube.com">
+                  <i class="fab fa-youtube fa-2x"></i>
+                </a>
+              </div>
+              <div>
+                <h3>Company Info</h3>
+                <ul>
+                  <li><a href="#">All Products</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>LG SIGNATURE</h3>
+                <ul>
+                  <li><a href="#">Brand Story</a></li>
+                  <li><a href="#">LG SIGNATURE OLED TV</a></li>
+                  <li><a href="#">LG SIGNATURE Washing Machine</a></li>
+                  <li><a href="#">LG SIGNATURE Refrigerator</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>About LG</h3>
+                <ul>
+                  <li><a href="#">Press Releases</a></li>
+                  <li><a href="#">Media Contacts</a></li>
+                  <li><a href="#">Careers</a></li>
+                </ul>
+              </div>
+            </div>
+        </footer>
+    
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="js/simple-lightbox.jquery.min.js"></script>
+        
+        <script>
+            $(function() {
+                const $gallery =$('.gallery a').simpleLightbox();
+            });
+        </script>
+
+        
+
+
+
+         <footer>
+            <hr>
+             <center>
+                <div class="scc">
+                    <h4>SOCIAL CONNECTIVITY</h4>
+                    <a class="sc" href="https://www.facebook.com/LGIndiaPage/"> <img src="images/sc/sc1.svg" alt="facebook"></a>
+                    <a href="https://twitter.com/lgindia"> <img src="images/sc/sc3.svg" alt="twitter"></a>
+                    <a href="https://www.youtube.com/user/LGIndiachannel"> <img src="images/sc/sc4.svg" alt="youtube"></a>
+                    <a href="https://www.linkedin.com/company/lg-electronics-india-pvt-ltd"> <img src="images/sc/sc5.svg" alt="linkedin"></a> 
+                </div>
+             </center>
+        </footer>
+    </body>
+</html>
